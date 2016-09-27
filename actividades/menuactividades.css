@@ -1,0 +1,87 @@
+#contenidoactividades{
+float:left;
+width:60%;
+margin-left:2%;
+margin-top:5%;
+/*text-align:justify;
+border:1px solid silver;
+box-shadow: 5px 5px 5px silver;
+background-color: ghostwhite;
+line-height:2;*/
+
+}
+
+#titulocontenidoactividades{
+float:left;
+width:98%;
+border-bottom:5%;
+			
+}
+#marcoprincipal1{
+float:left;
+width:95%;
+height:40%;
+margin-bottom:2%;
+margin-top:5%;
+border-bottom:1px solid silver;
+}
+
+#imagen2actividades{
+float:left;
+width:30%;
+height:200px;
+background-image:url(img_actividades/centrovisitante9sep.png);
+background-size:100% 80%;
+background-repeat:no-repeat;
+background-position: top center;
+}
+#texto2actividades{
+float:left;
+width:68%;
+font-size:14px;
+padding-left:2%;
+text-align:justify;
+}
+
+#imagen1actividades{
+float:left;
+width:30%;
+height:200px;
+background-image:url(img_actividades/cartelaniversario.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+background-position: top center;
+}
+#texto1actividades{
+float:left;
+width:68%;
+padding-left:2%;
+text-align:justify;
+font-size:14px;
+}
+#marcoprincipal2{
+float:left;
+width:95%;
+height:40%;
+margin-bottom:2%;
+margin-top:5%;
+border-bottom:1px solid silver;
+}
+#contenido p{
+margin-left:5%;
+margin-right:5%;
+}
+#contenido ul{
+	margin-left:5%;
+margin-right:5%;
+}
+#meteoblue{
+width:80%;
+height:300px;
+margin-left:5%;	
+}
+#eltiempo{
+margin-left:25%;
+margin-bottom:5%;	
+	
+}

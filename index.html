@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="iso-8859-1">
+<meta name="description" content="Ejemplo de HTML5">
+<meta name="keywords" content="HTML5, CSS3, JavaScript">
+<title>AGRUPACIÓN ASTRONOMICA DE SAN FERNANDO</title>
+<link rel="stylesheet" href="stylecomun.css">
+<link rel="stylesheet" href="index.css">
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<div id="agrupar">
+<?php include('../menuprincipal.php'); ?>
+<!--<nav id="menu">
+<ul id="menuprincipal">
+	<li><a href="../index.html">Inicio</a></li>
+	<li><a href="agrupacion/agrupacion.php">Agrupación</a> </li>
+	<li><a href="">Artículos</a> </li>
+	<li><a href="">Historia</a></li>
+	<li><a href="">Systema Solar</a></li>
+	<li><a href="">Constelaciones</a></li>
+	<li><a href="agrupacion/contacto.php">Contacto</a></li>
+</ul>
+</nav>-->
+<header id="cabeceramenu">
+</header>
+<header class="noticias"> 
+<a href="paginaaniversario/paginaaniversario.php"><div class="slider">
+	<div id="slider">
+	<div><img src="imagenes/presentacionaniversario2.jpg" width="100%" height="100%"></div>
+	<div><img src="imagenes/presentacionaniversario1.jpg" width="100%" height="100%"></div>
+	<div><img src="imagenes/presentacionaniversario7.jpg" width="100%" height="100%"></div>
+	</div></a>
+</div>
+<script type="text/javascript">
+	$(function(){
+	$('#slider div:gt(0)').hide();
+	setInterval(function(){
+	$('#slider div:first-child').fadeOut(2000)
+	.next('div').fadeIn(2000)
+	.end().appendTo('#slider');
+	},4000)
+	})
+</script>
+
+</header>
+<header id="sccsecundaria1">
+	<header id="scc1primera">
+		<a href="paginaaniversario/paginaaniversario.php"><header id="imgscc1primera">
+		</header></a>
+		<header id="titulonoticias">
+		Calendario con todas nuestra Actividades
+		</header>
+	</header>
+	<header id="scc1segunda">
+		<a href="http://www.armada.mde.es/ArmadaPortal/page/Portal/ArmadaEspannola/ciencia_observatorio/prefLang_es/" target="_blank"><header id="imgscc1segunda">
+		</header></a>
+		<header id="titulonoticias">
+		Real Instituto y Observatorio de la Armada
+		</header>
+	</header>
+	<header id="scc1tercera">
+		
+		<header id="imgscc1tercera"><a href="http://www.heliofisicafjc.blogspot.com.es" target="_blank">
+		</header></a>
+		<header id="titulonoticias">
+		Observaciones Solar de nuestro Socio Fco. Jimenez
+		</header>
+	</header>
+
+</header>
+<header id="sccsecundaria2">
+	<header id="scc2primera">
+	</header>
+	<header id="scc2segunda">
+	</header>
+	<header id="scc2tercera">
+		<header id="scc2tercera1">
+		</header>
+		<header id="scc2tercera2">
+		</header>
+		<header id="scc2tercera3">
+		</header>
+	</header>
+
+</header>
+<header id="menuinferior">
+<nav id="menu">
+<ul id="menuprincipal">
+	<li><a href="../index2.html">Inicio</a></li>
+	<li><a href="">Agrupación</a> </li>
+	<li><a href="">Artículos</a> </li>
+	<li><a href="">Historia</a></li>
+	<li><a href="">Systema Solar</a></li>
+	<li><a href="">Constelaciones</a></li>
+	<li><a href="">Contacto</a></li>
+</ul>
+</nav>
+
+</header>
+
+
+<footer id="piedepagina">
+	<p>Copyright &#169 1996-2016 - Agrupación Astronomica de San Fernando
+	<p>Desarrollo y mantenimiento por Manuel Álvarez
+</footer>
+</div>
+</body>
+</html>

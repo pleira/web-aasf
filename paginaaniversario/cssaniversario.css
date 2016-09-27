@@ -1,0 +1,48 @@
+#contenidoaniversario{
+float:left;
+width:60%;
+margin-left:2%;
+margin-top:5%;
+/*text-align:justify;
+border:1px solid silver;
+box-shadow: 5px 5px 5px silver;
+background-color: ghostwhite;
+line-height:2;*/
+
+}
+
+#titulocontenidoaniversario{
+	float:left;
+	width:98%;
+			
+}
+#marcoprincipal1{
+	float:left;
+	width:98%;
+	height:200px;
+	border:1px solid silver;
+	margin-bottom:2%;
+}
+
+#imagen1aniversario{
+width:30%;
+height:100%;
+border:1px solid silver;	
+}
+
+#imagen2aniversario{
+width:30%;
+height:100%;
+border:1px solid silver;	
+
+}
+
+
+
+
+#marcoprincipal2{
+	float:left;
+	width:98%;
+	height:200px;
+	border:1px solid silver;
+}

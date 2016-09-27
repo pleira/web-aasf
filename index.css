@@ -1,0 +1,304 @@
+#seccionprincipalindex{
+width:100%;
+height:455px;
+margin-bottom:0.5%;
+background-color: #000033;
+
+
+}
+
+#logoindex{
+position:absolute;
+z-index:1;
+width:33%;
+height:450px;	
+background-image:url(imagenes/logoaniversario.png);
+background-size:30% 20%;	
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+.noticias{ /*contenedor para las imagenes*/
+float:left;
+position:absolute:
+z-index:2;
+/*padding:0;
+margin:auto;*/
+width:35%;
+height:454px;
+background-size:100% 100%;
+background-repeat:no-repeat;
+border:1px solid black;
+}
+
+
+/*float:left;
+width:600px;
+height:400px;
+padding:0px;
+border:solid 1px darkblue;
+margin:auto;
+background-color:black;
+}*/
+/*#seccionprincipal{
+
+}*/
+#slider{
+position:relative;
+width:100%;
+height:454px;
+padding:0px;
+background-color:#000;
+
+}
+
+#slider >div { 
+position:absolute;
+width:100%;
+height:100%;
+}
+#articuloindex1{
+float:left;	
+position:relative;
+width:44.5%;
+height:50%;	
+border:1px solid black;
+color:white;
+text-align:left;
+margin-left:0.5%;
+padding-right:0.5%;
+padding-left:1%;
+background:black;
+font-size:95%;
+}
+
+#imgcalculoefemeridesindex{
+float:left;
+width:120px;
+height:120px;
+padding-top:9%;
+padding-right:5%;
+
+	
+	
+}
+#conocenos{
+float:left;	
+width:17%;
+height:50%;	
+margin-left:0.5%;
+border:1px solid black;
+color:white;
+background:black;
+text-align:center;
+background-image:url(imagenes/logo.png);
+background-repeat:no-repeat;
+background-size:100px 100px;	
+background-position:bottom center;
+
+}
+#imgconocenos{
+float:left;
+width:100px;
+height:100px;
+margin-left:15px;
+
+}
+#planeatusalida{
+float:left;	
+position:relative;
+/*padding-left:0.5%;
+padding-right:1%;*/
+margin-left:0.5%;
+margin-top:0.5%;
+width:31.5%;
+height:48.5%;	
+text-align:center;
+border:1px solid black;
+color:white;
+background:black;
+/*
+background-image:url(imagenes/previsionmeteorologica.png);
+background-repeat:no-repeat;
+background-size:80px 80px;	
+background-position:center bottom;*/
+font-size:95%;
+
+}/*
+#imgplaneatusalida{
+float:left;
+width:125px;
+height:125px;
+margin-top:5%;
+
+}*/
+#galeriaindex{
+float:left;	
+width:31.5%;
+height:221px;	
+margin-left:0.5%;
+margin-top:0.5%;
+border:1px solid black;
+background-image:url(imagenes/gifindex.gif);
+background-size:100% 100%;
+}
+#separacionindex{
+float:left;
+width:100%;
+height:25px;
+padding-top:1%;
+color:whitesmoke;
+text-align:center;
+background:#000033;	
+border:1px solid black;
+	
+}
+#sccsecundaria1{
+width:100%;
+height:300px;
+background:transparent;
+/*border:1px solid gray;*/
+}
+#titulonoticias{ /*titulo que cada cuadro de noticias/articulos */
+width:90%;
+height:20%;
+margin-left:5%;
+margin-top:3%;
+color:white;
+
+}
+#scc1primera{
+float:left;
+width:33%;
+height:100%;
+background:black;
+/*border-right:1px groove gray;*/
+font-size:14px;
+text-align:center;
+}
+#scc1segunda{
+float:left;
+width:33.7%;
+height:100%;
+background:black;
+/*border-right:1px solid darkblue;
+border-left:1px solid darkblue;*/
+font-size:14px;
+text-align:center;
+
+}
+#scc1tercera{
+float:left;
+width:33%;
+height:100%;
+background:black;
+/*border-right:1px groove gray;*/
+font-size:14px;
+text-align:center;
+}
+
+#imgscc1primera{
+width:80%;
+height:70%;
+margin-left:10%;
+margin-top:3%;
+background-image:url(imagenes/eclipselunar.png);
+background-size: 90% 100%;
+background-repeat:no-repeat;
+background-position:center;
+
+}
+
+
+#imgscc1segunda{
+width:80%;
+height:70%;
+margin-left:10%;
+margin-top:3%;
+background-image:url(imagenes/roa.jpg);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+background-position:center;
+
+}
+#imgscc1tercera{
+width:80%;
+height:70%;
+margin-left:10%;
+margin-top:3%;
+background-image:url(imagenes/blogheliofisica.png);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+background-position:center;
+
+}
+
+
+/*
+#sccsecundaria2{
+width:100%;
+height:300px;
+background:white;
+margin:2px auto;
+}
+#sccsecundaria2>header:nth-child(1){
+float:left;
+width:33%;
+height:100%;
+background-image:url(imagenes/observatoriamarina.png);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+border-right:1px groove gray;
+}
+
+#sccsecundaria2>header:nth-child(2){
+float:left;
+width:33.7%;
+height:100%;
+background:white;
+background-image:url(imagenes/articulos.png);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+border-right:1px groove gray;
+}
+#sccsecundaria2>header:nth-child(3){
+float:left;
+width:33%;
+height:100%;
+background:white;
+}
+
+#scc2tercera1{
+float:left;
+width:100%;
+height:33%;
+
+background:white;
+}
+#scc2tercera2{
+float:left;
+width:100%;
+height:33%;
+border-top:1px solid gray;
+background:white;
+
+}
+#scc2tercera3{
+float:left;
+width:100%;
+height:33%;
+border-top:1px solid gray;
+background:white;
+
+}*/
+#cartelaniversario{
+float:left;
+width:35%;
+height:448px;
+background-size:100% 100%;
+background-repeat:no-repeat;
+border:1px solid silver;
+	
+	
+}
+
